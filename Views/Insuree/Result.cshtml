@@ -1,0 +1,8 @@
+@model CarInsurance.Models.Insuree
+<h2>Quote Result</h2>
+
+<p><strong>Name:</strong> @Model.FirstName @Model.LastName</p>
+<p><strong>Email:</strong> @Model.EmailAddress</p>
+<p><strong>Calculated Quote:</strong> $@Model.Quote</p>
+
+<a href="/Insuree/Create">Back to Form</a>

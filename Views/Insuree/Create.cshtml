@@ -1,0 +1,39 @@
+@model CarInsurance.Models.Insuree
+<h2>Create Insuree</h2>
+
+<form method="post">
+    <label>First Name:</label>
+    <input type="text" name="FirstName" /><br />
+
+    <label>Last Name:</label>
+    <input type="text" name="LastName" /><br />
+
+    <label>Email:</label>
+    <input type="email" name="EmailAddress" /><br />
+
+    <label>Date of Birth:</label>
+    <input type="date" name="DateOfBirth" /><br />
+
+    <label>Car Year:</label>
+    <input type="number" name="CarYear" /><br />
+
+    <label>Car Make:</label>
+    <input type="text" name="CarMake" /><br />
+
+    <label>Car Model:</label>
+    <input type="text" name="CarModel" /><br />
+
+    <label>DUI:</label>
+    <input type="checkbox" name="DUI" /><br />
+
+    <label>Speeding Tickets:</label>
+    <input type="number" name="SpeedingTickets" /><br />
+
+    <label>Coverage Type:</label>
+    <select name="CoverageType">
+        <option value="Basic">Basic</option>
+        <option value="Full">Full</option>
+    </select><br /><br />
+
+    <button type="submit">Submit</button>
+</form>
